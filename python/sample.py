@@ -44,7 +44,7 @@ for (i, v) in enumerate(attrib.normals):
     print("vn[{}] = {}".format(i, v))
 
 for (i, v) in enumerate(attrib.texcoords):
-    print("vt[{}] = {}".format(i, t))
+    print("vt[{}] = {}".format(i, v))
 
 print("numpy_vertices = {}".format(attrib.numpy_vertices()))
 
